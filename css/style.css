@@ -1,0 +1,65 @@
+.posts {
+    background-color: #80b3ff;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+.post-id {
+    font-size: 24px;
+    color: #fbf7f3;
+}
+h3, h2 {
+    display: inline-block;
+}
+.overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #d2697a;
+    display: none;
+}
+.overlay.active {
+    display: block;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+.description {
+    color: #fff;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.add-post {
+    width: 60px;
+    height: 60px;
+    background-color: #35d59c;
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-add {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#a37fc8;
+    display: none;
+    color: #fff;
+}
+.overlay-add.active {
+    display: block;
+}
